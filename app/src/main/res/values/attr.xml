@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleRoundProgress">
+        <attr name="srp_roundColor" format="color"/>
+        <attr name="srp_roundWidth" format="dimension"/>
+        <attr name="srp_progressColor" format="color" />
+        <attr name="srp_progressWidth" format="dimension"/>
+        <attr name="srp_max" format="integer" />
+        <attr name="srp_startAngle" format="integer" />
+
+        <attr name="srp_style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
